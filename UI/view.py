@@ -1,6 +1,6 @@
 import flet as ft
 
-
+# Regola l'interfaccia grafica
 class View(ft.UserControl):
     def __init__(self, page: ft.Page):
         super().__init__()

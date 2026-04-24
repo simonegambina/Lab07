@@ -1,7 +1,7 @@
 from database.DB_connect import DBConnect
 from model.situazione import Situazione
 
-
+# Prende i dati sporchi del database sql e li pulisce per fornirli al model
 class MeteoDao():
 
     @staticmethod
